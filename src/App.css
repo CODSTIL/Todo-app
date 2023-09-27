@@ -1,0 +1,90 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* TodoApp.css */
+
+/* Styling for the main container */
+.main {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the todo input container */
+.todo-input {
+  margin-bottom: 20px;
+}
+
+/* Styling for the todo input form */
+.todo-input form {
+  display: flex;
+  gap: 10px;
+}
+
+/* Styling for the todo input field */
+.todo-input input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Styling for the "Add Item" button */
+.todo-input button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+
+}
+
+/* Styling for the todo list container */
+.todo-list {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for each todo item */
+.todo-list li {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Styling for the timestamp */
+.todo-list .timestamp {
+  font-size: 10px;
+  color: #888;
+}
+
+/* Styling for the "Delete" button */
+.todo-list button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Hover effect for the "Delete" button */
+.todo-list button:hover {
+  background-color: #c82333;
+}
